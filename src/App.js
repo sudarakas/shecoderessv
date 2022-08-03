@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./styles/main.css";
+// import Main from "./component/main";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./component/header";
+import { About } from "./component/about";
+import { Apply } from "./component/apply/Apply";
+import Timeline from "./component/timeline"
+import { Container, Row, Col } from "react-bootstrap";
+import videoBg from "./assets/videos/videoBg.mp4";
+import { Info } from "./component/info/Info";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+     <div className="App"> 
+      {/* <Main/> */}
+      <video className="background-video" src={videoBg} autoPlay loop muted/>
+      <div className="content">
+        <Header/>
+        <About/>
+        <Apply/>
+        <Timeline/>
+        <Info/>
+      </div>
+    
+  
     </div>
+   
   );
 }
 
