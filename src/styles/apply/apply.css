@@ -1,0 +1,9 @@
+.card{
+    width:100%;
+}
+
+.card-header{
+    font-weight: bold;
+  font-size: 25px;
+  color: rgb(112,23,127);
+}

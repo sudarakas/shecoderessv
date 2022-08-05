@@ -1,19 +1,7 @@
 .faq {
     font-family: 'quicksand';
     font-weight: lighter;
-    background: rgba(150,77,156,1);
-    background: 
-      -moz-linear-gradient(
-        left, 
-        rgba(150,77,156,1) 0%, 
-        rgba(238,72,138,1) 100%
-    );
-    background:
-      -webkit-linear-gradient(
-          left, 
-          rgba(150,77,156,1) 0%, 
-          rgba(238,72,138,1) 100%
-    );
+    background: #32033e;
   }
 
 .faq-accordion {
