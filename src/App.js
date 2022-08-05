@@ -9,6 +9,8 @@ import Timeline from "./component/timeline"
 import { Container, Row, Col } from "react-bootstrap";
 import videoBg from "./assets/videos/videoBg.mp4";
 import { Info } from "./component/info/Info";
+import{FAQ} from "./component/faq"
+
 function App() {
   return (
   
@@ -20,6 +22,7 @@ function App() {
         <About/>
         <Apply/>
         <Timeline/>
+        <FAQ/>
         <Info/>
       </div>
     
