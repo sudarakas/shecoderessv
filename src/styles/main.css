@@ -179,16 +179,16 @@
 
 .info-section {
   background-color: white !important;
-  background: linear-gradient(-45deg, rgba(150,77,156,0.3) 45%, rgba(238,72,138,0.3) 55%) !important;
+  background: linear-gradient(-45deg, #fdcbf1 0%, #eee6ec 1%, #fcf4ff 50%, #efe1f5 50%) !important;
   background-size: 400% 400%;
   -webkit-animation: changeBackground 10s ease-in-out infinite;
           animation: changeBackground 10s ease-in-out infinite;
 }
 
 .info-section h1 {
-  color: rgb(112,23,127) !important;
+  color: #000000 !important;
 }
-
+ 
 @-webkit-keyframes changeBackground {
   0% {
     background-position: 0 50%;
