@@ -1,7 +1,6 @@
 .faq {
     font-family: 'quicksand';
     font-weight: lighter;
-    background: #32033e;
   }
 
 .faq-accordion {
@@ -32,17 +31,20 @@
     background-color: rgba(150,77,156,0.5);
   }
   .accordion-body{
-    background-color: rgba(150,77,156,1);
+    background-color: rgb(120, 64, 156);
     text-align: left;
     color: #fff;
   }
   .accordion-button{
-    background-color: rgba(238,224,244,0.5);
+    background-color: rgb(106, 56, 138);
     font-weight: bold;
-    color: rgb(112,23,127);
+    color: rgb(255, 255, 255);
   }
   .accordion-button:focus{
-    background-color: rgba(238,224,244,0.5);
+    background-color: rgb(102, 45, 140);
     font-weight: bold;
-    color: rgb(112,23,127);
+    color: rgb(255, 255, 255);
+  }
+  .button .accordion-button::after{
+    color: rgb(106, 56, 138);
   }

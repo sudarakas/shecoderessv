@@ -17,6 +17,37 @@ $background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   font-family: $font-stack;
 }
+
+.about{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(29, 5, 46,1) 25%);// margin-top:20vh;     
+}
+
+.apply{
+  background: rgb(29, 5, 46);
+  background: linear-gradient(180deg, rgba(29, 5, 46,1) 0%, rgba(63, 23, 92,1) 25%);// margin-top:20vh;     
+}
+
+.guideline{
+  background: rgb(63, 23, 92);
+  background: linear-gradient(180deg, rgba(63, 23, 92,1) 0%, rgba(80, 37, 110,1) 25%);// margin-top:20vh;     
+}
+
+.timeline-section{
+  background: rgb(80, 37, 110);
+  background: linear-gradient(180deg, rgba(80, 37, 110,1) 0%, rgba(93, 53, 124,1) 25%) !important;// margin-top:20vh;     
+}
+
+.faq{
+  background: rgb(93, 53, 124);
+  background: linear-gradient(180deg, rgba(93, 53, 124,1) 20%, rgba(123, 82, 153,1) 75%) !important;// margin-top:20vh;     
+}
+
+.info-section{
+  background: rgb(123, 82, 153);
+  background: linear-gradient(180deg, rgba(123, 82, 153,1) 25%, rgba(183, 163, 197,1) 95%) !important;// margin-top:20vh;     
+}
+
 .App {
   text-align: center;
   background-color: $primary-color;
@@ -104,9 +135,7 @@ $background: rgba(0, 0, 0, 0.5);
 
 //apply section
 .apply-main{
-  background: linear-gradient(-10deg, #EE488A 0%, #944D9A 30%,#32033e 50%,#32033e 50%);
   background-size: 400% 400%;
-  animation: changeBackground 10s ease-in-out infinite ;
   .row{
     width: 100%;
   }
@@ -151,7 +180,6 @@ $background: rgba(0, 0, 0, 0.5);
 .App .content .section {
   padding: 50px 0;
   height: 100%;
-  background-color: #32033e;
 }
 
 .apply-main .row {
@@ -179,16 +207,7 @@ $background: rgba(0, 0, 0, 0.5);
 //info section
 .info-section{
   background-color: white !important;
-  background: linear-gradient(-45deg, rgba(150,77,156,0.3) 45%, rgba(238,72,138,0.3) 55%) !important;
   background-size: 400% 400%;
-  animation: changeBackground 10s ease-in-out infinite ;
-  h1{
-    color:#000000 !important;
-  }
-}
-
-.info-section h1 {
-  color: rgb(112,23,127) !important;
 }
 
 

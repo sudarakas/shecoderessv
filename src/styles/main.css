@@ -4,6 +4,36 @@
   font-family: Montserrat, "Open Sans";
 }
 
+.about {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(29, 5, 46) 25%);
+}
+
+.apply {
+  background: rgb(29, 5, 46);
+  background: linear-gradient(180deg, rgb(29, 5, 46) 0%, rgb(63, 23, 92) 25%);
+}
+
+.guideline {
+  background: rgb(63, 23, 92);
+  background: linear-gradient(180deg, rgb(63, 23, 92) 0%, rgb(80, 37, 110) 25%);
+}
+
+.timeline-section {
+  background: rgb(80, 37, 110);
+  background: linear-gradient(180deg, rgb(80, 37, 110) 0%, rgb(93, 53, 124) 25%) !important;
+}
+
+.faq {
+  background: rgb(93, 53, 124);
+  background: linear-gradient(180deg, rgb(93, 53, 124) 20%, rgb(123, 82, 153) 75%) !important;
+}
+
+.info-section {
+  background: rgb(123, 82, 153);
+  background: linear-gradient(180deg, rgb(123, 82, 153) 25%, rgb(183, 163, 197) 95%) !important;
+}
+
 .App {
   text-align: center;
   background-color: #32033e;
@@ -80,10 +110,7 @@
 }
 
 .apply-main {
-  background: linear-gradient(-10deg, #EE488A 0%, #944D9A 30%, #32033e 50%, #32033e 50%);
   background-size: 400% 400%;
-  -webkit-animation: changeBackground 10s ease-in-out infinite;
-          animation: changeBackground 10s ease-in-out infinite;
 }
 .apply-main .row {
   width: 100%;
@@ -114,7 +141,6 @@
 .App .content .section {
   padding: 50px 0;
   height: 100%;
-  background-color: #32033e;
 }
 
 .apply-main .row {
@@ -142,17 +168,7 @@
 
 .info-section {
   background-color: white !important;
-  background: linear-gradient(-45deg, rgba(150, 77, 156, 0.3) 45%, rgba(238, 72, 138, 0.3) 55%) !important;
   background-size: 400% 400%;
-  -webkit-animation: changeBackground 10s ease-in-out infinite;
-          animation: changeBackground 10s ease-in-out infinite;
-}
-.info-section h1 {
-  color: #000000 !important;
-}
-
-.info-section h1 {
-  color: rgb(112, 23, 127) !important;
 }
 
 @-webkit-keyframes changeBackground {
