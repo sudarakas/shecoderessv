@@ -1,0 +1,17 @@
+.card{
+    width:100%;
+    background: #32033e;   
+}
+
+.card-header{
+    font-weight: bold;
+  font-size: 25px;
+  color: rgb(112,23,127);
+  background-color: rgba(238,224,244,0.8);
+}
+
+.card-body{
+  background-color: rgba(238,224,244,0.8);
+  color: #222;
+  font-weight:600;
+}

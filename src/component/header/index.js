@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import shecodress from "../../assets/images/shecodress.png";
 import { Ticker } from "../timer";
 
@@ -21,6 +21,9 @@ const index = () => {
         <Col className="p-5">
           {/* <p className="body-text">Sri lankan first girl's only hackothon.</p> */}
           <Ticker futureDate={futureDate} />
+        </Col>
+        <Col>
+        <Button className="apply-btn apply-main">Apply Now</Button>
         </Col>
       </Row>
     </Container>

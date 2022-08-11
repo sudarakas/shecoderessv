@@ -9,8 +9,8 @@ $font-stack: Montserrat, "Open Sans";
 
 //colors
 $primary-font-color: #ffffff;
-$secondary-color: #f511cf;
-$primary-color: #14010b;
+$secondary-color: #EE488A;
+$primary-color: #32033e;
 $background: rgba(0, 0, 0, 0.5);
 
 * {
@@ -104,7 +104,7 @@ $background: rgba(0, 0, 0, 0.5);
 
 //apply section
 .apply-main{
-  background: linear-gradient(-45deg, #cc208e 0%, #6713d2 30%,#770777 50%,#4e0777 50%);
+  background: linear-gradient(-10deg, #EE488A 0%, #944D9A 30%,#32033e 50%,#32033e 50%);
   background-size: 400% 400%;
   animation: changeBackground 10s ease-in-out infinite ;
   .row{
@@ -118,8 +118,8 @@ $background: rgba(0, 0, 0, 0.5);
     .apply-btn{
       border-radius: 50px;
       padding:1rem 2rem;
-      margin:5rem 0;
-      background-image: linear-gradient(135deg, #46056b 0%, #e205e2 100%);
+      margin:2rem 0;
+      background-image: linear-gradient(135deg, #944D9A 0%, #EE488A 100%);
       
       // &::after{
       //   content: "";
@@ -148,7 +148,26 @@ $background: rgba(0, 0, 0, 0.5);
   }
 }
 
+.App .content .section {
+  padding: 50px 0;
+  height: 100%;
+  background-color: #32033e;
+}
 
+.apply-main .row {
+  width: 80%;
+}
+
+.guideline .row {
+  width: 80%;
+}
+
+.apply-div .apply-btn {
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  margin: 5rem 0;
+  background-image: linear-gradient(135deg, #944D9A 0%, #EE488A 100%);
+}
 
 //timline section
 .timeline-section{
@@ -160,12 +179,16 @@ $background: rgba(0, 0, 0, 0.5);
 //info section
 .info-section{
   background-color: white !important;
-  background: linear-gradient(-45deg, #fdcbf1 0%, #eee6ec 1%, #fcf4ff 50%,#efe1f5 50%) !important;
+  background: linear-gradient(-45deg, rgba(150,77,156,0.3) 45%, rgba(238,72,138,0.3) 55%) !important;
   background-size: 400% 400%;
   animation: changeBackground 10s ease-in-out infinite ;
   h1{
     color:#000000 !important;
   }
+}
+
+.info-section h1 {
+  color: rgb(112,23,127) !important;
 }
 
 
