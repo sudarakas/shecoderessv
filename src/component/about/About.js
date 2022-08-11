@@ -1,12 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col,Figure } from "react-bootstrap";
+import background from "../../assets/images/shecoder.jpg";
+
 export const About = () => {
   return (
     <Container fluid className="section">
       <Row >
-        <Col lg={6} md={6} sm={12} xs={12} className="topic-content" data-aos='fade-right' data-aos-delay="100">
-          <h1 className="topic">What is SHERCODERess?</h1>
-        </Col>
+        <Col lg={6} md={6} sm={12} xs={12} className="topic-content" data-aos='fade-right' data-aos-delay="100"> 
+        <Figure.Image alt="171x180" src={background}/>
+          </Col>
         <Col lg={6} md={6} sm={12} xs={12} data-aos='fade-left' data-aos-delay="200">
           <p className="body-text main-content">
           'Hackathons are where your crazy ideas become real'
