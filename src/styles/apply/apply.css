@@ -1,6 +1,6 @@
 .card{
     width:100%;
-    background: #32033e;   
+    background:linear-gradient(135deg, #000000 10%, #32033e 90%) ;   
 }
 
 .card-header{

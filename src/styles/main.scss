@@ -65,7 +65,9 @@ $background: rgba(0, 0, 0, 0.5);
       .content-col {
         padding-right: 6rem;
       }
-
+      .row{
+        margin:auto !important;
+      }
       .topic-content {
         display: flex;
         align-items: center;
@@ -73,9 +75,10 @@ $background: rgba(0, 0, 0, 0.5);
       }
       .main-content {
         display: flex;
-        
+        flex-direction: column;
         justify-content: center;
-        margin: 2rem;
+        padding: 0.5rem;
+        // margin: 1rem;
         
       }
     }
