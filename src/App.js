@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./component/header";
 import { About } from "./component/about";
 import { Apply } from "./component/apply/Apply";
+import { Footer } from "./component/footer/Footer";
 import { Guideline } from "./component/guideline/Guideline";
 import Timeline from "./component/timeline"
 import { Container, Row, Col } from "react-bootstrap";
@@ -26,6 +27,7 @@ function App() {
         <Timeline/>
         <FAQ/>
         <Info/>
+        <Footer/>
       </div>
     
   
