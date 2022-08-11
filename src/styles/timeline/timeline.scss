@@ -56,7 +56,7 @@
       float: left;
       clear: right;
       transform: translateX(-30px) !important;
-      border:4px solid #cc208e;
+      border:4px solid #EE488A;
       border-radius: 20px 0px 20px 20px;
       
     }
@@ -64,7 +64,7 @@
       float: right;
       clear: left;
       transform: translateX(30px) !important;
-      border:4px solid #6713d2;
+      border:4px solid #944D9A;
       border-radius: 0px 20px 20px 20px;
     }
     .timeline ul li::before {
@@ -89,9 +89,9 @@
       top: -30px;
     }
     .timeline ul li:nth-child(odd):hover::before {
-        background-color: rgb(225, 0, 255);
+        background-color: #944D9A;
       }
     .timeline ul li:nth-child(even):hover::before {
-      background-color: #6713d2;
+      background-color: #EE488A;
     }
   }

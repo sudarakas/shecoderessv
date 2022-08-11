@@ -16,7 +16,7 @@ export const Ticker = ({futureDate}) => {
           styles={buildStyles({
             textSize: "28px",
             pathTransitionDuration: 0.5,
-            pathColor: `rgba(245, 17, 207, 1)`,
+            pathColor: `#944D9A`,
             textColor: "#ffffff",
             trailColor: "#d6d6d6",
             backgroundColor: "#3e98c7",
@@ -32,7 +32,7 @@ export const Ticker = ({futureDate}) => {
           styles={buildStyles({
             textSize: "28px",
             pathTransitionDuration: 0.5,
-            pathColor: `rgba(245, 17, 207, 1)`,
+            pathColor: `#944D9A`,
             textColor: "#ffffff",
             trailColor: "#d6d6d6",
             backgroundColor: "#3e98c7",
@@ -48,7 +48,7 @@ export const Ticker = ({futureDate}) => {
           styles={buildStyles({
             textSize: "28px",
             pathTransitionDuration: 0.5,
-            pathColor: `rgba(245, 17, 207, 1)`,
+            pathColor: `#944D9A`,
             textColor: "#ffffff",
             trailColor: "#d6d6d6",
             backgroundColor: "#3e98c7",
@@ -64,7 +64,7 @@ export const Ticker = ({futureDate}) => {
           styles={buildStyles({
             textSize: "28px",
             pathTransitionDuration: 0.5,
-            pathColor: `rgba(161, 17, 245, 1)`,
+            pathColor: `#EE488A`,
             textColor: "#ffffff",
             trailColor: "#d6d6d6",
             backgroundColor: "#3e98c7",
