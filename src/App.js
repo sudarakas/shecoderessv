@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./component/header";
 import { About } from "./component/about";
 import { Apply } from "./component/apply/Apply";
+import { Guideline } from "./component/guideline/Guideline";
 import Timeline from "./component/timeline"
 import { Container, Row, Col } from "react-bootstrap";
 import videoBg from "./assets/videos/videoBg.mp4";
@@ -21,6 +22,7 @@ function App() {
         <Header/>
         <About/>
         <Apply/>
+        <Guideline/>
         <Timeline/>
         <FAQ/>
         <Info/>
