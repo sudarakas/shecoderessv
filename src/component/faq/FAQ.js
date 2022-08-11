@@ -7,7 +7,7 @@ import '../../styles/faq/faq.css'
 export const FAQ = () => {
   return (
     <Container fluid className='faq'>
-        <Accordion defaultActiveKey="0" className='faq-accordion'>
+        <Accordion defaultActiveKey="0" className='faq-accordion' data-aos='fade-up'>
             {FaqData.map((val,key) =>{
                 return (
                     <Accordion.Item eventKey={val.eventkey}>

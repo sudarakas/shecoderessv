@@ -4,10 +4,10 @@ export const About = () => {
   return (
     <Container fluid className="section">
       <Row >
-        <Col lg={6} md={6} sm={12} xs={12} className="topic-content">
+        <Col lg={6} md={6} sm={12} xs={12} className="topic-content" data-aos='fade-right' data-aos-delay="100">
           <h1 className="topic">What is SHERCODERess?</h1>
         </Col>
-        <Col lg={6} md={6} sm={12} xs={12} >
+        <Col lg={6} md={6} sm={12} xs={12} data-aos='fade-left' data-aos-delay="200">
           <p className="body-text main-content">
           'Hackathons are where your crazy ideas become real'
           <br/>
