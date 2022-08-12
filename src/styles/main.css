@@ -24,19 +24,24 @@
   background: linear-gradient(180deg, rgb(80, 37, 110) 0%, rgb(93, 53, 124) 25%) !important;
 }
 
-.faq {
+.prize {
   background: rgb(93, 53, 124);
   background: linear-gradient(180deg, rgb(93, 53, 124) 20%, rgb(123, 82, 153) 75%) !important;
 }
 
-.info-section {
+.faq {
   background: rgb(123, 82, 153);
   background: linear-gradient(180deg, rgb(123, 82, 153) 25%, rgb(183, 163, 197) 95%) !important;
 }
 
-.footer {
+.info-section {
   background: rgb(183, 163, 197);
   background: linear-gradient(180deg, rgb(183, 163, 197) 25%, rgb(202, 188, 212) 95%) !important;
+}
+
+.footer {
+  background: rgb(202, 188, 212);
+  background: linear-gradient(180deg, rgb(202, 188, 212) 25%, rgb(224, 217, 228) 95%) !important;
 }
 
 .footer p {
