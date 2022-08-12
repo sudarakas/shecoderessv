@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/shecoderessv/static/css/main.85d05e30.css",
-    "main.js": "/shecoderessv/static/js/main.73fb842c.js",
+    "main.css": "/shecoderessv/static/css/main.e92d99c1.css",
+    "main.js": "/shecoderessv/static/js/main.0555fcbb.js",
     "static/js/787.2808a1b4.chunk.js": "/shecoderessv/static/js/787.2808a1b4.chunk.js",
     "static/media/videoBg.mp4": "/shecoderessv/static/media/videoBg.fd49493f0edbf1d9a449.mp4",
     "static/media/wielogo.png": "/shecoderessv/static/media/wielogo.d37dc370ab0a44e6fe97.png",
     "static/media/girl.png": "/shecoderessv/static/media/girl.a26f1b9d6979d70a099a.png",
-    "static/media/shecodress.png": "/shecoderessv/static/media/shecodress.c0b27a279a0dab993628.png",
+    "static/media/prize.png": "/shecoderessv/static/media/prize.4e76ad8bfbcb56c3152b.png",
+    "static/media/shecoder.jpg": "/shecoderessv/static/media/shecoder.a52a1ae4d4285fd166f0.jpg",
+    "static/media/shecodress.png": "/shecoderessv/static/media/shecodress.04284d14e0de4bd6e832.png",
     "static/media/sb_logo.png": "/shecoderessv/static/media/sb_logo.79764e1ae1d328954c1b.png",
     "static/media/logo.svg": "/shecoderessv/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/shecoderessv/index.html",
-    "main.85d05e30.css.map": "/shecoderessv/static/css/main.85d05e30.css.map",
-    "main.73fb842c.js.map": "/shecoderessv/static/js/main.73fb842c.js.map",
+    "main.e92d99c1.css.map": "/shecoderessv/static/css/main.e92d99c1.css.map",
+    "main.0555fcbb.js.map": "/shecoderessv/static/js/main.0555fcbb.js.map",
     "787.2808a1b4.chunk.js.map": "/shecoderessv/static/js/787.2808a1b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85d05e30.css",
-    "static/js/main.73fb842c.js"
+    "static/css/main.e92d99c1.css",
+    "static/js/main.0555fcbb.js"
   ]
 }
