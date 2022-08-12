@@ -1,9 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col,Figure } from "react-bootstrap";
+import background from "../../assets/images/shecoder.jpg";
+
 export const About = () => {
   return (
-    <Container fluid className="section">
+    <Container fluid className="section about">
       <Row >
+
         <Col lg={6} md={6} sm={12} xs={12} className="topic-content">
           <h1 className="topic">What is SHERCODERess?</h1>
         </Col>

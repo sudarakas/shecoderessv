@@ -1,17 +1,20 @@
 .card{
     width:100%;
+
     background:linear-gradient(135deg, #000000 10%, #32033e 90%) ;   
+
 }
 
 .card-header{
     font-weight: bold;
   font-size: 25px;
-  color: rgb(112,23,127);
-  background-color: rgba(238,224,244,0.8);
+  color: #fff;
+  background-color: rgb(42, 19, 57);
+  border: #fff;
 }
 
 .card-body{
-  background-color: rgba(238,224,244,0.8);
-  color: #222;
+  background-color: rgb(57, 25, 78);
+  color: #fff;
   font-weight:600;
 }

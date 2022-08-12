@@ -3,13 +3,10 @@ import { Timeline } from "./Timeline";
 
 const Index = () => {
   const [content, setContent] = useState([
-    { text: "Registration Open", date: "12th Augest, 2022" },
-    { text: "Registration Closed", date: "30th Augest, 2022" },
-    { text: "Hackothon day", date: "3rd September, 2022" },
-    { text: "Hackothon day", date: "3rd September, 2022" },
-    { text: "Hackothon day", date: "3rd September, 2022" },
-    { text: "SHECODERess Say", date: "3rd September, 2022" },
-    
+    { text: "Registration Open", date: "12th Auguest, 2022" },
+    { text: "Registration Closed", date: "19th Auguest, 2022" },
+    { text: "Technical Session", date: "" },
+    { text: "Hackathon day", date: "2nd September, 2022" },   
   ]);
  
   return (

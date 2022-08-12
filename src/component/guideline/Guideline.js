@@ -5,7 +5,7 @@ import '../../styles/apply/apply.css'
 export const Guideline = () => {
   return (
     <Container fluid className="section guideline">
-      <Row >
+      <Row data-aos='fade-up'>
         
         <Col lg={12} md={12} sm={12} xs={12} >
         <Card>

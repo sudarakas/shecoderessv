@@ -5,11 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./component/header";
 import { About } from "./component/about";
 import { Apply } from "./component/apply/Apply";
+import { Footer } from "./component/footer/Footer";
+import { Guideline } from "./component/guideline/Guideline";
 import Timeline from "./component/timeline"
-import { Container, Row, Col } from "react-bootstrap";
 import videoBg from "./assets/videos/videoBg.mp4";
 import { Info } from "./component/info/Info";
-import{FAQ} from "./component/faq"
+import{FAQ} from "./component/faq";
+import { Prize } from "./component/prize/Prize";
 
 function App() {
   return (
@@ -21,12 +23,13 @@ function App() {
         <Header/>
         <About/>
         <Apply/>
+        <Guideline/>
         <Timeline/>
+        <Prize/>
         <FAQ/>
         <Info/>
-      </div>
-    
-  
+        <Footer/>
+      </div>  
     </div>
    
   );
