@@ -181,8 +181,10 @@ $background: rgba(0, 0, 0, 0.5);
 
 //info section
 .info-section{
+  display: flex;
+  flex-direction: column;
   background-color: white !important;
-  background: linear-gradient(-45deg, rgba(150,77,156,0.3) 45%, rgba(238,72,138,0.3) 55%) !important;
+  // background: linear-gradient(-45deg, rgba(150,77,156,0.8) 45%, rgba(238,72,138,0.8) 55%) !important;
   background-size: 400% 400%;
   animation: changeBackground 10s ease-in-out infinite ;
   h1{
@@ -194,6 +196,11 @@ $background: rgba(0, 0, 0, 0.5);
   color: rgb(112,23,127) !important;
 }
 
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
 
 @keyframes changeBackground {
   0%{

@@ -10,6 +10,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import videoBg from "./assets/videos/videoBg.mp4";
 import { Info } from "./component/info/Info";
 import{FAQ} from "./component/faq"
+import {Footer} from "./component/footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Timeline/>
         <FAQ/>
         <Info/>
+        <Footer/>
       </div>
     
   
