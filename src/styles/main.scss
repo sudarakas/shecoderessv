@@ -110,7 +110,9 @@ color:#32033e;
       .content-col {
         padding-right: 6rem;
       }
-
+      .row{
+        margin:auto !important;
+      }
       .topic-content {
         display: flex;
         align-items: center;
@@ -118,9 +120,10 @@ color:#32033e;
       }
       .main-content {
         display: flex;
-        
+        flex-direction: column;
         justify-content: center;
-        margin: 2rem;
+        padding: 0.5rem;
+        // margin: 1rem;
         
       }
     }

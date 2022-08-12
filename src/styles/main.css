@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans&display=swap");
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Montserrat, "Open Sans";
 }
 
@@ -52,6 +53,7 @@
   text-align: center;
   background-color: #32033e;
 }
+
 .App .background-video {
   position: absolute;
   top: 0;
@@ -61,49 +63,92 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 .App .main {
   width: 100%;
   height: 100%;
 }
+
 .App .content {
   position: absolute;
   width: 100%;
   top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   z-index: 3;
 }
+
 .App .content .header {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
+
 .App .content .header .logo-img {
   width: 80%;
 }
+
 .App .content .header .row {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-top: 10rem;
 }
+
 .App .content .section {
   height: 100vh;
   background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .App .content .section .content-col {
   padding-right: 6rem;
 }
-.App .content .section .topic-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.App .content .section .row {
+  margin: auto !important;
 }
-.App .content .section .main-content {
+
+.App .content .section .topic-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .content .section .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem;
 }
 
 .topic {
@@ -126,28 +171,45 @@
 .apply-main {
   background-size: 400% 400%;
 }
+
 .apply-main .row {
   width: 100%;
 }
+
 .apply-main .apply-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .apply-main .apply-div .apply-btn {
   border-radius: 50px;
   padding: 1rem 2rem;
   margin: 2rem 0;
   background-image: linear-gradient(135deg, #944D9A 0%, #EE488A 100%);
 }
+
 .apply-main .apply-div .apply-btn:hover {
   font-weight: 600;
-  transition-delay: 2s;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
 }
+
 .apply-main .rules {
-  flex-direction: column !important;
-  align-items: flex-start;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   font-size: 20px;
 }
+
 .apply-main .rules ul {
   list-style-type: disc !important;
 }
@@ -177,12 +239,27 @@
   height: -moz-fit-content !important;
   height: fit-content !important;
   padding: 5rem 0;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .info-section {
   background-color: white !important;
   background-size: 400% 400%;
+
+  -webkit-animation: changeBackground 10s ease-in-out infinite;
+          animation: changeBackground 10s ease-in-out infinite;
+}
+
+.info-section h1 {
+  color: #000000 !important;
+}
+
+.info-section h1 {
+  color: #70177f !important;
+
 }
 
 @-webkit-keyframes changeBackground {
@@ -207,4 +284,5 @@
   100% {
     background-position: 0 50%;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
