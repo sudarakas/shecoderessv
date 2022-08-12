@@ -8,7 +8,7 @@ export const About = () => {
       <Row >
 
         <Col lg={6} md={6} sm={12} xs={12} className="topic-content">
-          <h1 className="topic">What is SHERCODERess?</h1>
+          <Figure.Image alt="what is shecoderess" src={background}/>
         </Col>
         <Col lg={6} md={6} sm={12} xs={12} >
           <div className="body-text main-content">
