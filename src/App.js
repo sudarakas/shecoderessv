@@ -32,7 +32,6 @@ function App() {
         <Prize/>
         <FAQ/>
         <Info/>
-        <Team/>
         <Footer/>
       </div>  
     </div>
