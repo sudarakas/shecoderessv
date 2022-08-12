@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: Montserrat, "Open Sans";
 }
 
@@ -10,39 +9,44 @@
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(29, 5, 46) 25%);
 }
 
-.apply {
+.gallery {
   background: rgb(29, 5, 46);
   background: linear-gradient(180deg, rgb(29, 5, 46) 0%, rgb(63, 23, 92) 25%);
 }
 
-.guideline {
+.apply {
   background: rgb(63, 23, 92);
   background: linear-gradient(180deg, rgb(63, 23, 92) 0%, rgb(80, 37, 110) 25%);
 }
 
-.timeline-section {
+.guideline {
   background: rgb(80, 37, 110);
   background: linear-gradient(180deg, rgb(80, 37, 110) 0%, rgb(93, 53, 124) 25%) !important;
 }
 
-.prize {
+.timeline-section {
   background: rgb(93, 53, 124);
   background: linear-gradient(180deg, rgb(93, 53, 124) 20%, rgb(123, 82, 153) 75%) !important;
 }
 
-.faq {
+.prize {
   background: rgb(123, 82, 153);
   background: linear-gradient(180deg, rgb(123, 82, 153) 25%, rgb(183, 163, 197) 95%) !important;
 }
 
-.info-section {
+.faq {
   background: rgb(183, 163, 197);
   background: linear-gradient(180deg, rgb(183, 163, 197) 25%, rgb(202, 188, 212) 95%) !important;
 }
 
-.footer {
+.info-section {
   background: rgb(202, 188, 212);
   background: linear-gradient(180deg, rgb(202, 188, 212) 25%, rgb(224, 217, 228) 95%) !important;
+}
+
+.footer {
+  background: rgb(224, 217, 228);
+  background: linear-gradient(180deg, rgb(224, 217, 228) 25%, rgb(234, 230, 237) 95%) !important;
 }
 
 .footer p {
@@ -53,7 +57,6 @@
   text-align: center;
   background-color: #32033e;
 }
-
 .App .background-video {
   position: absolute;
   top: 0;
@@ -63,91 +66,52 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .App .main {
   width: 100%;
   height: 100%;
 }
-
 .App .content {
   position: absolute;
   width: 100%;
   top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   z-index: 3;
 }
-
 .App .content .header {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
-
 .App .content .header .logo-img {
   width: 80%;
 }
-
 .App .content .header .row {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding-top: 10rem;
 }
-
 .App .content .section {
   height: 100vh;
   background-color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .App .content .section .content-col {
   padding-right: 6rem;
 }
-
 .App .content .section .row {
   margin: auto !important;
 }
-
 .App .content .section .topic-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .App .content .section .main-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 0.5rem;
 }
 
@@ -171,45 +135,28 @@
 .apply-main {
   background-size: 400% 400%;
 }
-
 .apply-main .row {
   width: 100%;
 }
-
 .apply-main .apply-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .apply-main .apply-div .apply-btn {
   border-radius: 50px;
   padding: 1rem 2rem;
   margin: 2rem 0;
   background-image: linear-gradient(135deg, #944D9A 0%, #EE488A 100%);
 }
-
 .apply-main .apply-div .apply-btn:hover {
   font-weight: 600;
-  -webkit-transition-delay: 2s;
-          transition-delay: 2s;
+  transition-delay: 2s;
 }
-
 .apply-main .rules {
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column !important;
+  align-items: flex-start;
   font-size: 20px;
 }
-
 .apply-main .rules ul {
   list-style-type: disc !important;
 }
@@ -239,27 +186,12 @@
   height: -moz-fit-content !important;
   height: fit-content !important;
   padding: 5rem 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .info-section {
   background-color: white !important;
   background-size: 400% 400%;
-
-  -webkit-animation: changeBackground 10s ease-in-out infinite;
-          animation: changeBackground 10s ease-in-out infinite;
-}
-
-.info-section h1 {
-  color: #000000 !important;
-}
-
-.info-section h1 {
-  color: #70177f !important;
-
 }
 
 @-webkit-keyframes changeBackground {
@@ -284,5 +216,4 @@
   100% {
     background-position: 0 50%;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
