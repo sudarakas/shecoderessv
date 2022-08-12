@@ -18,12 +18,14 @@ const index = () => {
         <Col>
           <img className="logo-img" src={shecodress} alt="shecoderessv5.0" />
         </Col>
-        <Col className="pt-5">
+
+        <Col className="p-2">
           {/* <p className="body-text">Sri lankan first girl's only hackothon.</p> */}
           <Ticker futureDate={futureDate} />
         </Col>
-        <Col className="pt-4">
-        <Button className="apply-btn apply-main">Apply Now</Button>
+        <Col className="apply-div">
+        <Button href="https://bit.ly/3QetbNW" target="_blank" className="apply-btn">Apply Now</Button>
+
         </Col>
       </Row>
     </Container>
