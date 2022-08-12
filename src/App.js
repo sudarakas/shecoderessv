@@ -30,7 +30,7 @@ function App() {
         <Guideline/>
         <Timeline/>
         <Prize/>
-        <FAQ/>
+        {/*<FAQ/>*/}
         <Info/>
         <Footer/>
       </div>  

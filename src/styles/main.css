@@ -34,19 +34,14 @@
   background: linear-gradient(180deg, rgb(123, 82, 153) 25%, rgb(183, 163, 197) 95%) !important;
 }
 
-.faq {
+.info-section {
   background: rgb(183, 163, 197);
   background: linear-gradient(180deg, rgb(183, 163, 197) 25%, rgb(202, 188, 212) 95%) !important;
 }
 
-.info-section {
+.footer {
   background: rgb(202, 188, 212);
   background: linear-gradient(180deg, rgb(202, 188, 212) 25%, rgb(224, 217, 228) 95%) !important;
-}
-
-.footer {
-  background: rgb(224, 217, 228);
-  background: linear-gradient(180deg, rgb(224, 217, 228) 25%, rgb(234, 230, 237) 95%) !important;
 }
 
 .footer p {
