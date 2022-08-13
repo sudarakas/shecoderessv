@@ -33,7 +33,9 @@ function App() {
         {/*<FAQ/>*/}
         <Info/>
         <Footer/>
+
       </div>  
+
     </div>
    
   );

@@ -226,12 +226,27 @@ color:#32033e;
   flex-direction: column;
 }
 
+.prize{
+  .confetti-canvas{
+    margin-top: 400vh;
+    width:100%;
+    height: 100vh;
+    z-index: 1000;
+  }
+}
 //info section
 .info-section{
+  display: flex;
+  flex-direction: column;
   background-color: white !important;
   background-size: 400% 400%;
 }
 
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
 
 @keyframes changeBackground {
   0%{

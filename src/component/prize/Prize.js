@@ -9,9 +9,9 @@ export const Prize = () => {
     <h1 className="topic" data-aos="fade-up">Prizes</h1>  
     
     <Row >
-        <Col lg={12} md={12} sm={12} xs={12} className="topic-content" data-aos='fade-up' data-aos-delay="300"> 
-        <Confetti/>
-        <Figure.Image alt="171x180" width="80%" src={background}/>
+        <Col lg={12} md={12} sm={12} xs={12} className="topic-content" > 
+        {/* <Confetti className="confetti-canva"/> */}
+        <Figure.Image alt="171x180" width="80%" src={background} data-aos='fade-up' data-aos-delay="200"/>
           </Col>
       </Row>   
     </Container>
