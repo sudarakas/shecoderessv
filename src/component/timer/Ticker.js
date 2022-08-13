@@ -60,7 +60,7 @@ export const Ticker = ({futureDate}) => {
         <CircularProgressbar
           value={seconds}
           maxValue={60}
-          text={seconds}
+          text={seconds>0?seconds:0}
           styles={buildStyles({
             textSize: "28px",
             pathTransitionDuration: 0.5,

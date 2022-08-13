@@ -24,7 +24,7 @@ const index = () => {
           <Ticker futureDate={futureDate} />
         </Col>
         <Col className="apply-div">
-        <Button href="https://bit.ly/3QetbNW" target="_blank" className="apply-btn">Apply Now</Button>
+        <Button href="https://bit.ly/uwu_wie_shecodress2022" target="_blank" className="apply-btn">Apply Now</Button>
 
         </Col>
       </Row>

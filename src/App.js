@@ -14,7 +14,7 @@ import { Info } from "./component/info/Info";
 import{FAQ} from "./component/faq";
 import { Prize } from "./component/prize/Prize";
 import { Gallery } from "./component/gallery/Gallery";
-import { Team } from "./component/team/Team";
+// import { Team } from "./component/team/Team";
 
 function App() {
   return (

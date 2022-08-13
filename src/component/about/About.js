@@ -14,9 +14,9 @@ export const About = () => {
         </Col>
         <Col lg={6} md={6} sm={12} xs={12} >
           <div className="body-text main-content">
-            <p>
-          'Hackathons are where your crazy ideas become real'
-          
+            
+          <h4>'Hackathons are where your crazy ideas become real'</h4>
+          <p>
           <br/>
           <br/>
           
