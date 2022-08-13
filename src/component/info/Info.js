@@ -5,6 +5,8 @@ import wielogo from "../../assets/images/wielogo.png";
 import extractpro from "../../assets/images/extractpro.svg";
 import simcentric from "../../assets/images/simcentric.png";
 import wielly from "../../assets/images/weilly.webp"
+import sana from "../../assets/images/sana.png"
+
 export const Info = () => {
   return (
     <Container fluid className="section info-section">
@@ -15,6 +17,20 @@ export const Info = () => {
           </h1>
         </Col>
         <Col lg={12} md={12} sm={12} xs={12}>
+        <Row>
+            <Col lg={12} md={12} sm={12} xs={12}>
+              <h3 className="mt-4"><b>Title sponsor</b></h3>
+              <Figure data-aos="fade-up" data-aos-duration="1000">
+                <Figure.Image
+                  width={370}
+                  height={300}
+                  alt="sana"
+                  src={sana}
+                  style={{ marginTop: 50 }}
+                />
+              </Figure>
+            </Col>
+          </Row>
           <Row>
             <Col lg={12} md={12} sm={12} xs={12}>
               <h3 className="mt-4"><b>Platinum sponsor</b></h3>
