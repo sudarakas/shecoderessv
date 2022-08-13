@@ -11,7 +11,7 @@ $font-stack: Montserrat, "Open Sans";
 $primary-font-color: #ffffff;
 $secondary-color: #EE488A;
 $primary-color: #32033e;
-$background: rgba(0, 0, 0, 0.5);
+$background: rgba(0, 0, 0, 0.1);
 
 * {
   box-sizing: border-box;
@@ -23,27 +23,27 @@ $background: rgba(0, 0, 0, 0.5);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(29, 5, 46,1) 25%);// margin-top:20vh;     
 }
 
-.apply{
+.gallery{
   background: rgb(29, 5, 46);
   background: linear-gradient(180deg, rgba(29, 5, 46,1) 0%, rgba(63, 23, 92,1) 25%);// margin-top:20vh;     
 }
 
-.guideline{
+.apply{
   background: rgb(63, 23, 92);
   background: linear-gradient(180deg, rgba(63, 23, 92,1) 0%, rgba(80, 37, 110,1) 25%);// margin-top:20vh;     
 }
 
-.timeline-section{
+.guideline{
   background: rgb(80, 37, 110);
   background: linear-gradient(180deg, rgba(80, 37, 110,1) 0%, rgba(93, 53, 124,1) 25%) !important;// margin-top:20vh;     
 }
 
-.prize{
+.timeline-section{
   background: rgb(93, 53, 124);
   background: linear-gradient(180deg, rgba(93, 53, 124,1) 20%, rgba(123, 82, 153,1) 75%) !important;// margin-top:20vh;     
 }
 
-.faq{
+.prize{
   background: rgb(123, 82, 153);
   background: linear-gradient(180deg, rgba(123, 82, 153,1) 25%, rgba(183, 163, 197,1) 95%) !important;// margin-top:20vh;     
 }
@@ -55,8 +55,9 @@ $background: rgba(0, 0, 0, 0.5);
 
 .footer{
   background: rgb(202, 188, 212);
-  background: linear-gradient(180deg, rgba(202, 188, 212,1) 25%, rgb(224, 217, 228) 95%) !important;// margin-top:20vh;     
+  background: linear-gradient(180deg, rgba(202, 188, 212,1) 25%, rgba(224, 217, 228,1) 95%) !important;// margin-top:20vh;     
 }
+
 
 .footer p{
 color:#32033e;
@@ -205,6 +206,10 @@ color:#32033e;
 
 .guideline .row {
   width: 80%;
+}
+
+.footer .row {
+  width: 100%;
 }
 
 .apply-div .apply-btn {

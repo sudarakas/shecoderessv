@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./styles/main.css";
+import "./styles/image-gallery.css";
 // import Main from "./component/main";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./component/header";
@@ -12,6 +13,8 @@ import videoBg from "./assets/videos/videoBg.mp4";
 import { Info } from "./component/info/Info";
 import{FAQ} from "./component/faq";
 import { Prize } from "./component/prize/Prize";
+import { Gallery } from "./component/gallery/Gallery";
+import { Team } from "./component/team/Team";
 
 function App() {
   return (
@@ -22,11 +25,12 @@ function App() {
       <div className="content">
         <Header/>
         <About/>
+        <Gallery/>
         <Apply/>
         <Guideline/>
         <Timeline/>
         <Prize/>
-        <FAQ/>
+        {/*<FAQ/>*/}
         <Info/>
         <Footer/>
 

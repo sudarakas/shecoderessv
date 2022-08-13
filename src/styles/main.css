@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: Montserrat, "Open Sans";
 }
 
@@ -11,34 +10,31 @@
   background: linear-gradient(180deg, black 0%, #1d052e 25%);
 }
 
+
+.gallery {
+  background: rgb(29, 5, 46);
+  background: linear-gradient(180deg, rgb(29, 5, 46) 0%, rgb(63, 23, 92) 25%);
+}
+
 .apply {
-  background: #1d052e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1d052e), color-stop(25%, #3f175c));
-  background: linear-gradient(180deg, #1d052e 0%, #3f175c 25%);
+  background: rgb(63, 23, 92);
+  background: linear-gradient(180deg, rgb(63, 23, 92) 0%, rgb(80, 37, 110) 25%);
 }
 
 .guideline {
-  background: #3f175c;
-  background: -webkit-gradient(linear, left top, left bottom, from(#3f175c), color-stop(25%, #50256e));
-  background: linear-gradient(180deg, #3f175c 0%, #50256e 25%);
+  background: rgb(80, 37, 110);
+  background: linear-gradient(180deg, rgb(80, 37, 110) 0%, rgb(93, 53, 124) 25%) !important;
 }
 
 .timeline-section {
-  background: #50256e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#50256e), color-stop(25%, #5d357c)) !important;
-  background: linear-gradient(180deg, #50256e 0%, #5d357c 25%) !important;
+  background: rgb(93, 53, 124);
+  background: linear-gradient(180deg, rgb(93, 53, 124) 20%, rgb(123, 82, 153) 75%) !important;
 }
 
 .prize {
-  background: #5d357c;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #5d357c), color-stop(75%, #7b5299)) !important;
-  background: linear-gradient(180deg, #5d357c 20%, #7b5299 75%) !important;
-}
+  background: rgb(123, 82, 153);
+  background: linear-gradient(180deg, rgb(123, 82, 153) 25%, rgb(183, 163, 197) 95%) !important;
 
-.faq {
-  background: #7b5299;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #7b5299), color-stop(95%, #b7a3c5)) !important;
-  background: linear-gradient(180deg, #7b5299 25%, #b7a3c5 95%) !important;
 }
 
 .info-section {
@@ -61,7 +57,6 @@
   text-align: center;
   background-color: #32033e;
 }
-
 .App .background-video {
   position: absolute;
   top: 0;
@@ -71,91 +66,52 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .App .main {
   width: 100%;
   height: 100%;
 }
-
 .App .content {
   position: absolute;
   width: 100%;
   top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   z-index: 3;
 }
-
 .App .content .header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   height: 100vh;
 }
-
 .App .content .header .logo-img {
   width: 80%;
 }
-
 .App .content .header .row {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding-top: 10rem;
 }
-
 .App .content .section {
   height: 100vh;
   background-color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .App .content .section .content-col {
   padding-right: 6rem;
 }
-
 .App .content .section .row {
   margin: auto !important;
 }
-
 .App .content .section .topic-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .App .content .section .main-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 0.5rem;
 }
 
@@ -179,45 +135,28 @@
 .apply-main {
   background-size: 400% 400%;
 }
-
 .apply-main .row {
   width: 100%;
 }
-
 .apply-main .apply-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .apply-main .apply-div .apply-btn {
   border-radius: 50px;
   padding: 1rem 2rem;
   margin: 2rem 0;
   background-image: linear-gradient(135deg, #944D9A 0%, #EE488A 100%);
 }
-
 .apply-main .apply-div .apply-btn:hover {
   font-weight: 600;
-  -webkit-transition-delay: 2s;
-          transition-delay: 2s;
+  transition-delay: 2s;
 }
-
 .apply-main .rules {
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column !important;
+  align-items: flex-start;
   font-size: 20px;
 }
-
 .apply-main .rules ul {
   list-style-type: disc !important;
 }
@@ -235,6 +174,10 @@
   width: 80%;
 }
 
+.footer .row {
+  width: 100%;
+}
+
 .apply-div .apply-btn {
   border-radius: 50px;
   padding: 1rem 2rem;
@@ -247,10 +190,7 @@
   height: -moz-fit-content !important;
   height: fit-content !important;
   padding: 5rem 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .prize .confetti-canvas {
@@ -270,7 +210,7 @@
           flex-direction: column;
   background-color: white !important;
   background-size: 400% 400%;
-}
+
 
 .footer {
   display: -webkit-box;
@@ -281,6 +221,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #000000;
+
 }
 
 @-webkit-keyframes changeBackground {
@@ -305,5 +246,4 @@
   100% {
     background-position: 0 50%;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
